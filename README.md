@@ -3,4 +3,4 @@ Dies ist ein Tool mit dem du checken kannst ob schon etwas auf `status.discordap
 
 ---
 
-Dieses Tool wurde ursprünglich von [zImPatrick](https://twitter.com/zImPatrick_) entwickelt und von mir, [nightly.](twitter.com/nightlyonie), behoben und minimal verbessert.
+Dieses Tool wurde ursprünglich von [zImPatrick](https://github.com/zImPatrick) entwickelt und von mir, [nightly.](hhtps://twitter.com/nightlyonie), behoben und minimal verbessert.
