@@ -1,33 +1,86 @@
+:root {
+  /* Hier werden alle Designfarben und -akzente definiert. 
+     Standardmäßig orientiert sich die Farbpalette an Discords Branding (https://discord.com/branding). */
+  
+  /* legt den Website-Hintergrund fest 
+     Standard: #23272A ("not quite black") */
+  --website-background-color: #23272A; 
+  
+  /* legt die Schriftfarben für ALLE Elemente auf der Website fest.
+     Jeweils findest du eine Einstellung für den Header und eine für den Rest. 
+     Standard: beide Werte auf #FFFFFF */
+  --website-font-color: #FFFFFF;
+  --header-font-color: #FFFFFF;
+  
+  /* legt den Hintergrund des Headers fest 
+     Standard: #7289DA (Discord-Blurple) */
+  --header-background-color: #7289DA; 
+  
+  /* legt die Eigenschaften des Header-Schattens fest 
+     Zum Deaktivieren einfach "none" schreiben.
+     Standard: 0px 20px 100px black */
+  --header-shadow-properties: 0px 20px 100px black; 
+  
+  /* legt die Farbe der Links fest 
+     Standard: #7289DA (Discord-Blurple) */
+  --link-color: #7289DA; 
+  
+  /* legt die Textdekoration des Links fest (standardmäßig ausgeschalten, damit die Links besser ins Design reinpassen.)
+     Standard: none */
+  --link-decoration: none;
+}
+
 body {
-    background: #2C2F33;
-    color: #fff;
-    text-align: center;
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
-p b h1 h2 h3 h4 h5 h6{
-    color: #FFFFFF;
-}
-
-#footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    opacity: 0.4;
+  font-family: Whitney, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--website-font-color);
+  background-color: var(--website-background-color);
+  margin: 0px;
 }
 
-a {
-    color: #00b0f4;
-    text-decoration: none;
+#header {
+  text-align: center;
+  background-color: var(--header-background-color);
+  padding: 10px;
+  color: var(--header-font-color);
+  box-shadow: var(--header-shadow-properties);
 }
-a:hover {
-    text-decoration: underline;
+
+#title {
+  font-size: 32px;
+}
+
+#newssection {
+  padding: 10px;
+}
+
+#newsTitle {
+  text-align: center;
+  font-size: 26px;
 }
 
 #updates {
   font-family: monospace;
-  width: calc(100% - 40px);
-  margin: 20px;
-  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#footer {
+  background-color: var(--website-background-color);
+  position: fixed;
+  bottom: 0px;
+  padding: 10px;
+  width: calc(100% - 20px);
+  text-align: center;
+}
+
+.links {
+  color: var(--link-color);
+  text-decoration: var(--link-decoration);
+}
+
+#DiscordLoadingAnimation {
+  text-align: center;
+  width: 100%;
 }

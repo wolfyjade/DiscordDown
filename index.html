@@ -1,25 +1,34 @@
 <html>
-    <head>
-        <script src="script.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ist Discord down?</title>
-        <link rel="shortcut icon" href="https://discord.com/assets/07dca80a102d4149e9736d4b162cff6f.ico">
-    </head>
-    <body onload="onload()">
-        <h1>Ist Discord down?</h1>
-        <p id="text"></p>
-        <div id="updates"></div>
-        <video autoplay loop muted>
-            <source src="https://discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm">
-        </video>
-
-        <p id="footer">
-          Der Inhalt aktualisiert sich jede Minute von alleine.<br>
-          <br>
-          Diese Website wurde von <a href="https://github.com/zImPatrick">zImPatrick</a> (<a href="https://github.com/zImPatrick/DiscordDown">Originalprojekt (Github)</a>) und <a href="https://github.com/nightlyyyyy">nightly.</a> programmiert.<br>
-          Wir beide nutzen nur Discord's API und haben ansonsten nichts mit Discord zu tun.
-      </p>
-    </body>
+  <head>
+    <title>Ist Discord down?</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <link rel="shortcut icon" href="https://discord.com/assets/07dca80a102d4149e9736d4b162cff6f.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="onload()">
+    
+    <div id="header">
+      <span id="title">Ist Discord down?</span><br>
+      <span id="text">Warte kurz...</span>
+    </div>
+    
+    <div id="newssection">
+      <div id="newsTitle"></div>
+      <div id="updates">
+      </div>
+    </div>
+    
+    <div id="DiscordLoadingAnimation">
+      <video autoplay loop muted>
+        <source src="https://discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm">
+      </video>
+    </div>
+    
+    <div id="footer">
+      Dieses Projekt wurde von <a class="links" href="https://www.github.com/zImPatrick">zImPatrick</a> erstellt und wird aktuell von <a class="links" href="https://www.github.com/nightlyyyyy">nightly.</a> weitergeführt.
+    </div>
+  </body>
 </html>
