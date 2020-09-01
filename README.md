@@ -13,3 +13,10 @@ Dieses Tool wurde ursprünglich von [zImPatrick](https://github.com/zImPatrick) 
 - Auto-Refresh (Die Seite checkt jede Minute von alleine, ob es weitere Neuigkeiten gibt)
 - Ein "Footer", der wirklich unten bleibt
 - Der "Neuigkeiten"-Bereich wurde von der Schriftart her nun in Monospace-Schriftarten formatiert und (für bessere Lesbarkeit) linksbündig ausgerichtet
+- ein an Discords Branding angepasste Design! ^^
+
+---
+
+### Aktuell in Arbeit:
+
+Nichts weiter. Wenn du irgendwelche Wünsche hast oder Bugs findest, dann schreibe es einfach in die [Issues-Seite](https://github.com/nightlyyyyy/DiscordDown/issues) rein.
