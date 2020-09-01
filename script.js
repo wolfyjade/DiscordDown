@@ -2,7 +2,7 @@ var DiscordStatusJSON = 'https://srhpyqt94yxb.statuspage.io/api/v2/incidents/unr
 
 function onload() {
   DiscordAPICheck();
-  setTimeout(() => DiscordAPICheck(), 120);
+  setInterval(() => DiscordAPICheck(), 60);
 }
 
 function DiscordAPICheck() {
