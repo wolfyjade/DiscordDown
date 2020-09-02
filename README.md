@@ -10,10 +10,10 @@ Dieses Tool wurde ursprünglich von [zImPatrick](https://github.com/zImPatrick) 
 
 ### Verbesserungen gegenüber dem Original-Projekt:
 
-- Auto-Refresh (Die Seite checkt alle 30 Sekunden von alleine, ob es weitere Neuigkeiten gibt)
-- Ein "Footer", der wirklich unten bleibt
-- Der "Neuigkeiten"-Bereich wurde von der Schriftart her nun in Monospace-Schriftarten formatiert und (für bessere Lesbarkeit) linksbündig ausgerichtet
-- ein an Discords Branding angepasste Design! ^^
+- Auto-Refresh (Die Seite checkt alle 30 Sekunden von alleine, ob es weitere Neuigkeiten gibt).
+- Der "Neuigkeiten"-Bereich wurde von der Schriftart her in Monospace-Schriftarten formatiert und (für bessere Lesbarkeit) linksbündig ausgerichtet.
+- Ein an Discords Branding angepasste Design! ^^
+- Integration von Webfonts, damit die Seite auch auf allen Geräten mit der Discord-typischen Schriftart angezeigt wird.
 
 ---
 
