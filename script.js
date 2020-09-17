@@ -10,6 +10,8 @@ function DiscordAPICheck() {
   var updates       = document.getElementById('updates');
   var updatestitle  = document.getElementById('newsTitle');
   text.innerHTML = "Warte mal, ich schaue mal kurz nach..."
+  updates.innerHTML = "";
+  updatestitle.innerHTML = "";
   fetch(DiscordStatusJSON, {mode: 'cors'})
   .then(resp=>resp.text())
   .then(text => {
