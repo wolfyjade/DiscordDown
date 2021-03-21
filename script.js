@@ -37,6 +37,6 @@ function DiscordAPICheck() {
   }).catch((e) => {
     document.getElementById('text').innerHTML = "oopsie poopsie";
     document.getElementById('newsTitle').innerHTML = "Es ist ein Fehler aufgetreten.";
-    document.getElementById('updates').innerHTML = `Der Fehler lautet:<br>${e}<br><br>Bitte melde ihn schnellstmöglich als GitHub-Issue auf der <a class="links" href="https://github.com/nightlyyyyy/DiscordDown">GitHub-Seite</a>.`;
+    document.getElementById('updates').innerHTML = `Der Fehler lautet:<br>${e}<br><br>Bitte melde ihn schnellstmöglich als GitHub-Issue auf der <a class="links" href="https://github.com/nightlyonie/DiscordDown">GitHub-Seite</a>.`;
   })
 }
